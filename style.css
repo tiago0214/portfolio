@@ -1,0 +1,157 @@
+
+body{
+    background:linear-gradient(rgb(2, 31, 53),rgb(22, 22, 22)) ;
+    color: azure;
+    background-size: cover;
+    height: 100%;
+    line-height: 2;
+    margin: 0px;
+}
+.verde{
+    color: rgb(103, 201, 168);
+}
+.margin-top{
+    margin-top: 130px;
+    margin-bottom: 0px;
+}
+/* rgb(103, 201, 168) */
+/* rgb(103, 165, 201) */
+
+.topo{
+    width: 100%;
+    list-style: none;
+    background-color: rgb(1, 23, 37);
+    /* overflow:hidden; */
+    padding:8px 16px;
+    display:block;
+    /* outline:0; */
+    box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    position: fixed;
+    z-index: 1;
+    /* right:0; */
+    text-decoration: none;
+    color: azure;
+    box-sizing: border-box;
+}
+.topo a{
+    text-decoration: none;
+    color: azure;
+    padding: 10px;
+    /* margin: 5px; */
+}
+.topo a:active {
+    background-color:  rgb(103, 201, 168);
+    color: rgb(255, 255, 255);
+  }
+.mouse{
+    display: inline;
+}
+.download{
+    border: 1px solid rgb(103, 201, 168);
+    border-radius: 8px;
+    padding: 5px;
+    margin-left: 0px;
+    margin-top: 50px;
+    display: inline-block;
+    margin-right:10px ;
+}
+.resume{
+    border: 1px solid rgb(103, 201, 168);
+    border-radius: 8px;
+    padding: 10px;
+
+}
+h1{
+    color: aliceblue;
+    font-size: 70px;
+    padding: 0px;
+    margin: 0px;
+}
+h2{
+    color: rgba(240, 248, 255, 0.829);
+    font-size: 50px;
+    padding: 0px;
+    margin: 0px;
+}
+.txtsobre{
+    color: rgba(240, 248, 255, 0.562);
+    /* padding: 50px 0px; */
+}
+.conteudo{
+    max-width:100%;
+    width: 1521px;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 128px 16px;
+}
+.habilidades{
+    max-width:100%;
+    width: 1521px;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 128px 16px; 
+}
+.mim{
+    max-width:100%;
+    width: 1521px;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 128px 16px; 
+}
+.certificados{
+    max-width:100%;
+    width: 1521px;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 128px 16px;
+
+}
+.rodape {
+    max-width: 100%;
+    width: 1521px;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 128px 16px;
+    text-align: center;
+}
+.rodape > a {
+    border: solid 2px rgb(103, 201, 168);
+    padding: 5px;
+    border-radius: 8px;
+}
+a{
+    text-decoration: none;
+    color: azure;
+    display: inline;
+    border-radius: 8px;
+}
+.topo> a:hover{
+    background-color: rgba(103, 165, 201, 0.342);
+    transition: background 0.6s;
+}
+.mouse > a:hover{
+    background-color: rgba(103, 165, 201, 0.342);
+    transition: background 0.6s;
+}
+figure{
+    display: inline-block;
+    margin-left: 0px;
+    margin-right: 10px;
+}
+img{
+    margin: 10px;
+}
+.social {
+    display: inline-block;
+    font-size: 30px;
+    transform: translateY(15%);
+}
+.social > a{
+    transform: translateY(15%);
+    margin: 20px;
+}
+.rodape > a:hover{
+    background-color: rgba(103, 165, 201, 0.342);
+    transition: background 0.6s;
+}
+
