@@ -104,7 +104,13 @@ h2{
     margin: auto;
     box-sizing: border-box;
     padding: 128px 16px;
-
+}
+.certificados > div {
+    display: inline-block;
+    text-align: center;
+}
+.certificados > div > img {
+    margin-bottom: 0px;
 }
 .rodape {
     max-width: 100%;
